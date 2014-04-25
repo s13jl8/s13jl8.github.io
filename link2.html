@@ -7,14 +7,15 @@ if(!$_SESSION['access'])
 }
 ?>
 <head>
+<meta charset="utf-8">
 <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
 <script src="js.js"></script>
 </head>
 <body>
 <h2>This text which you cannot copy, too!</h2>
 <p>You can click as much as you want, but can't do any ;)</p>
-<a onclick="return location.href = 'yeap.php?tar=2'">Тык 1</a>
-<a onclick="return location.href = 'yeap.php?tar=1'">Главная</a>
+<a onclick="return location.href = 'yeap.html?tar=2'">Тык 1</a>
+<a onclick="return location.href = 'yeap.html?tar=1'">Главная</a>
 <br><br>
 <button onclick=unlock()>If you know password!</button> <!--кнопка с вызовом unlock() в js.js-->
 </body>
